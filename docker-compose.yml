@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   workflow-engine:
-    image: 192.168.12.101:5000/workflow-engine:1.0.5
+    image: 192.168.12.101:5000/workflow-engine:1.0.6
     ports:
       - "7000:3000"   # change if your app listens on another port
     deploy:
